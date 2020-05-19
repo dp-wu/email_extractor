@@ -6,4 +6,6 @@ It has the following features:
   3. the output file will be a list of emails separated with semicolon(;) and a space (except afte the last email);
   4. if no email was extracted from the input file, it will not open the output file;
   5. it is not using regex when parsing the raw text, the pattern for matching the email addresses is provided in the end of this readme, note that '.@+' is not a valid form for email address in our case, but '_@+' is a valid case. 
+                
+                
                 [(validChars)(validchar except .)@(validChar except .)(validChars)]
